@@ -8,13 +8,13 @@ import (
 )
 
 var tests = []struct {
-	input        string
+	input  string
 	output []int
 }{
-	{"ooo", []int{0,0,0}},
-	{"ioioio", []int{1,2,3}},
-	{"idoiido", []int{0,1}},
-	{"isoisoiso", []int{1,4,25}},
+	{"ooo", []int{0, 0, 0}},
+	{"ioioio", []int{1, 2, 3}},
+	{"idoiido", []int{0, 1}},
+	{"isoisoiso", []int{1, 4, 25}},
 	{"codewars", []int{0}},
 	{"ssdizbsnsdkkincuybidds", make([]int, 0)},
 }
